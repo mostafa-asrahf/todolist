@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+header form {
+    padding: 10px;
+    background-color: blueviolet;
+}
+header form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+header form button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    background-color: blue;
+}
+header form p {
+    color: red;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header table {
+    width: 100%;
+    border-collapse: collapse;
+}
+header table thead th:nth-last-child(4) {
+    width: 60%;
+    /* text-align: left; */
+}
+header table thead th {
+    background-color: rgb(68, 172, 231);
+    padding: 15px 5px;
+    color: white;
+    margin: 0;
+}
+header table tbody td:nth-last-child(4) {
+    width: 60%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header table tbody td {
+    padding: 20px 5px;
+    border-bottom: 2px solid rgb(197, 195, 195);
+}
+header table tbody td span {
+    font-size: 14px;
+    color: gray;
+    display: block;
+    margin-top: 5px;
+}
+header table tbody td span svg {   
+    vertical-align: middle;
+    margin-top: 5px;
+}
+header table tbody tr:hover {
+        box-shadow: 1px 1px 10px 0px rgb(72 96 163 / 80%);
+}
+header table tbody tr td:nth-last-child(3) svg {
+    background-color: red;
+        color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header table tbody tr td:nth-last-child(2) svg {
+    background-color: green;
+        color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header table tbody tr td:nth-last-child(1) svg {
+    background-color: blue;
+        color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(197, 195, 195) !important;
+}
+.completed {
+    text-decoration: line-through !important;
+    opacity: 0.6 !important;
+}
